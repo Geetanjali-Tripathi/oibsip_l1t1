@@ -1,0 +1,93 @@
+/* Apply a CSS reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+}
+
+/* Styling the header */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Styling the main content */
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+section p {
+    line-height: 1.8;
+}
+
+/* Styling the features list */
+ul.features {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+ul.features li {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling the contact form */
+form.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+form.contact-form input[type="text"],
+form.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form.contact-form textarea {
+    resize: vertical;
+}
+
+/* Styling the footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.logo img {
+    height: 50px;
+    width: 50px;
+}
